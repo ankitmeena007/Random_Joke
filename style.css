@@ -6,7 +6,7 @@
 }
 
 body {
-     background-color: #686de0;
+     background-color: #686de0/**/;
      font-family:  "Roboto", sans-serif;
      margin: 0;
      display: flex;    /* it will center allign the items */
@@ -21,7 +21,7 @@ body {
 
 
 .container {
-     background-color: #fff;
+     background-color: #fff ;
      border-radius: 10px;  /* the curve in the corners */
      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0,0, 0, 0, 0.1);
      padding: 50px 20px;  /* what will be the size of the white box */ 
@@ -45,6 +45,7 @@ h3 {
     max-width: 600px;
 }
 
+/*
 .btn { 
      color: #fff;
      background-color: #9f68e0;
@@ -57,16 +58,148 @@ h3 {
 }
 
 .btn:active{
-  transform: scale(0.98);   /* it will shrink while we click the button */
+  transform: scale(0.98);   
 }
 
 .btn:focus {
   outline: 0;
 }
 
+*/
+
+/* extra styling */
+
+a {
+     
+     color: #000000 /* #f1c40f */;
+     
+     text-decoration: none;
+     font-weight: bold;
+     padding: 5px;
+     border-radius: 1px;
+     opacity: 0.8;
+ }
+
+ span {
+     vertical-align: middle;
+     display: flex;
+     align-items: center;
+     
+     position: absolute;
+     color: white;
+     bottom: 2%;
+     left: 50%;
+     transform: translateX(-50%);
+     font-size: 25px;
+     
+     text-align: center;
+     line-height: 1.3;
+     font-family: revert;
+     letter-spacing: 1.3px;
+     margin-top: 30px;
+ }
 
 
 
 
 
 
+
+
+
+
+
+
+ .btn {
+     color: #fff;
+     background-color: #9f68e0;
+     border: 0;
+     border-radius: 10px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+     padding: 14px 40px;
+     font-size: 16px;
+
+
+/*
+     background: #39A9CB;
+*/
+     background-image: -webkit-linear-gradient(top, #9f68e0, #9f68e0);
+     background-image: -moz-linear-gradient(top, #9f68e0, #9f68e0);
+     background-image: -ms-linear-gradient(top, #9f68e0CB, #9f68e0);
+     background-image: -o-linear-gradient(top, #9f68e0, #9f68e0);
+     background-image: linear-gradient(to bottom, #9f68e0, #9f68e0);
+     -webkit-border-radius: 10;
+     -moz-border-radius: 10;
+     border-radius: 10px;
+     /*
+     font-family: 'Space Grotesk', sans-serif;
+     color: #ffffff;
+     font-size: 20px;
+     padding: 10px 20px 10px 20px;
+     */
+     text-decoration: none;
+   }
+   
+   .IJ{
+     background: #656565;
+     font-size: 20px;
+   }
+   
+   
+   
+   .btn:hover {
+     background: #3cb0fd;
+     background-image: -webkit-linear-gradient(top, #FFC947, #FFC947);
+     background-image: -moz-linear-gradient(top, #FFC947, #FFC947);
+     background-image: -ms-linear-gradient(top, #FFC947, #FFC947);
+     background-image: -o-linear-gradient(top, #FFC947, #FFC947);
+     background-image: linear-gradient(to bottom, #FFC947,#FFC947 );
+     text-decoration: none;
+   }
+   /* #3498db */
+   
+   .IJ:hover{
+     background: #FFC947;
+   }
+
+
+
+ .magic {
+
+     position: relative;
+     background: #9f68e0;
+     border: 1px solid transparent;
+     /* border-radius: 50px;
+     height: 50px; */
+     text-align: center;
+     text-decoration: none;
+     color: #ffffff;
+     /* line-height: 50px;
+     font-size: 18px;
+     padding: 0 70px; */
+     white-space: nowrap;
+     /* margin-top: 25px; */
+     transition: background 0.5s ease;
+     overflow: hidden;
+     -webkit-mask-image: -webkit-radial-gradient(#FFC947, black);
+   }
+   .magic:before {
+     content: "";
+     position: absolute; */
+     width: 20px;
+     height: 100px;
+     background: #FFC947;
+     bottom: -25px;
+     left: 0;
+     border: 2px solid #fff;
+     transform: translateX(-50px) rotate(45deg);
+     transition: transform 0.5s ease;
+   }
+   .magic:hover {
+     background: #FFC947;
+     border-color: #fff;
+   }
+   .magic:hover:before {
+     transform: translateX(250px) rotate(45deg);
+   }
+   
