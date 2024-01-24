@@ -1,6 +1,6 @@
 var GHPATH = '/random_joke';
 var APP_PREFIX = 'random_joke_';
-var VERSION = 'version_001';
+var VERSION = 'version_002';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
