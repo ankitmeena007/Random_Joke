@@ -14,7 +14,8 @@ body {
      align-items: center;  /* it will also center allign the elements */
      justify-content: center; /* it will center allign, otherwise it will be in left side */
      height: 100vh;   /* what will be the height */
-     overflow: hidden;
+     /*overflow: hidden;*/
+     overflow-y: auto;
 
 
 }
@@ -98,7 +99,6 @@ a {
      letter-spacing: 1.3px;
      margin-top: 5%/*30px*/;
  }
-
 
 
 
@@ -203,3 +203,25 @@ a {
      transform: translateX(250px) rotate(45deg);
    }
    
+
+
+   @media (max-width: 300px) {
+    .btn{
+      padding: 0.875rem 0.5rem;
+    }
+  }
+
+  @media (max-width: 225px) {
+    .btn{
+      padding: 0.875rem 0rem;
+    }
+    
+  }
+
+
+  @media (max-width: 205px) {
+    .container{max-width: 90%;
+    }
+    
+  }
+  
