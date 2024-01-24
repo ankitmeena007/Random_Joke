@@ -8,9 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Jokes </title>
     <script src="https://kit.fontawesome.com/4a036f4f29.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">   <!-- Link CSS -->    
+    <link rel="stylesheet" href="style.css">   <!-- Link CSS -->  
+
+    <!--remove --> 
+
+    <link rel="canonical" href="https://ankitmeena007.github.io/random_joke/" />
+    <link rel="manifest" href="/random_joke/manifest.webmanifest">
+
+    <!--remove -->
+
+
 </head>
 <body>
+
+    <!--remove --> 
+    <script>
+        if (navigator.serviceWorker) {
+          navigator.serviceWorker.register (
+            '/random_joke/sw.js',
+            {scope: '/random_joke/'}
+          )
+        }
+    </script>
+    <!--remove --> 
 
     <div class="container">
         <h3>Random Jokes Generator</h3>

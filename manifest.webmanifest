@@ -1,0 +1,17 @@
+{
+  "name": "random joke",
+  "short_name": "RJ",
+  "description": "Get a random joke",
+  "scope": "/random_joke/",
+  "start_url": "/random_joke/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone", 
+  "icons": [
+      {
+        "src": "/random_joke/favicon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+  ]
+}
